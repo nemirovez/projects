@@ -20,11 +20,69 @@ background-color: white;
 box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.4);
 position: relative;
 }
-.toprow{
-  height: 184px;
+.top{
+  height: 183px;
+}
+.countries{
+  height: 60px;
+  width: 380px;
+  float: right;
+  clear: both;
+  margin-top: 40px;
+}
+.countries a{
+  float: left;
+  width: 53px;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 11px;
+}
+.countries div{
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+}
+.cunt1{
+  background-image: url(../img/india.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 53px;
+}
+.cunt2{
+  background-image: url(../img/nepal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 53px;
+}
+.cunt3{
+  background-image: url(../img/tibet.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 53px;
+}
+.cunt4{
+  background-image: url(../img/butan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 53px;
+}
+.cunt5{
+  background-image: url(../img/shril.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 58px;
+}
+.cunt5 a{
+  width: 58px;
+}
+.cunt6{
+  background-image: url(../img/maldives.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 53px;
 }
 .holiday{
-  height: 167px;
+  height: 184px;
 }
 .contacts{
   float: right;
@@ -34,28 +92,6 @@ position: relative;
   margin: 8px 30px 0px 0px;
   font-family: Calibri;
 }
-.flags{
-  float: right;
-  clear: both;
-  margin: 10px 30px 0px 0px;
-}
-.countries{
-  float: right;
-  clear: both;
-  /*position: relative;*/
-  list-style: none;
-  /*display: inline;*/
-  width: inherit;
-  margin-right: 20px;
-}
-ul.countries li{
-  display: inline;
-  font-size: 12px;
-  padding: 0px 8px;
-}
-/*li.shri{
-  margin: 0px 0px;
-}*/
 a{
   color: #00BFFF;
 }
@@ -93,6 +129,7 @@ ul.menu>li{
 ul.menu>li>a{
   color: white;
   display: block;
+  margin-top: 4px;
   padding: 10px;
   text-decoration: none;
 }
@@ -132,20 +169,22 @@ ul.menu>li:hover>ul.submenu{
   background-color: #E6E6E6;
   float: left;
   /*clear: both;*/
-  /*height: 50%;*/
+  height: 48.5%;
   width: 18%;
   color: #6E6E6E;
   /*position: relative;*/
+  border-right: 1px solid grey;
 }
 .news{
   text-align: center;
   background-color: #E6E6E6;
   float: right;
   /*clear: both;*/
-  /*height: 50%;*/
+  height: 48.5%;
   width: 18%;
   color: #6E6E6E;
   position: relative;
+  border-left: 1px solid grey;
 }
 .news:first-line{
   font-size: 20px;
