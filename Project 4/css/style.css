@@ -1,0 +1,47 @@
+table{
+  height: 400px;
+  width: 400px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 8px solid white;
+  margin: 0 auto;
+}
+tr{
+  height: 20px;
+}
+td{
+  border: 7px solid rgba(0, 0, 0, 0.8);
+}
+tr.one{
+  height: 12px;
+}
+tr.two{
+  height: 30px;
+}
+tr.three{
+  height: 30px;
+}
+tr.six{
+  height: 15px;
+}
+tr.seven{
+  height: 15px;
+}
+td.yellow{
+  background-color: yellow;
+  /*width: 20px;*/
+}
+td.red{
+  background-color: red;
+  width: 50%;
+}
+td.black{
+  background-color: #151515;
+}
+td.blue{
+  background-color: #0B0B61;
+  width: 38%;
+}
+td.white{
+  width: 25%;
+}
