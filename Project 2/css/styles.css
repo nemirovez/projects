@@ -29,13 +29,14 @@ ul.line li{
   font-size: 20px;
   padding: 20px 30px;
 }
-li.choose{
+ul.line li:hover{
   border-left: solid;
   border-right: solid;
   border-color: grey;
   background-image: url(../img/selected.png);
   background-repeat: repeat-x;
   background-size: contain;
+  box-sizing: border-box;
 }
 .list{
   float: left;
