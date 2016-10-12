@@ -4,7 +4,7 @@ body {
   color: black;
   margin: 108px 425px;
 }
-.block1, .block2, .block3{
+.main-info, .education, .contacts{
   border-bottom: 1px solid grey;
 }
 .name{

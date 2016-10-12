@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: Calibri;
-
 }
 h1 {
   font-weight: normal;
@@ -10,8 +9,9 @@ h1 {
   padding-bottom: 40px;
   width: 100%;
 }
-body{
-  margin: 40px 60px;
+.wrapper{
+  width: 1157px;
+  margin: 40px auto;
 }
 .line{
   float: left;
@@ -30,13 +30,13 @@ ul.line li{
   padding: 20px 30px;
 }
 ul.line li:hover{
-  border-left: solid;
-  border-right: solid;
-  border-color: grey;
+  border-left: 3px solid grey;
+  border-right: 3px solid grey;
+  box-sizing: border-box;
   background-image: url(../img/selected.png);
   background-repeat: repeat-x;
   background-size: contain;
-  box-sizing: border-box;
+  padding: 20px 27px;
 }
 .list{
   float: left;
@@ -53,7 +53,7 @@ ul.line li:hover{
   padding-top: 15px;
   padding-left: 15px;
 }
-li.tel{
+.list li:hover{
   width: 90%;
   padding-left: 9.2%;
   background-color: #F2F2F2;
@@ -61,7 +61,7 @@ li.tel{
 }
 img{
   float: right;
-  width: 70%;
+  width: 60%;
   margin: 40px 0px 0px 58px;
   border: 1px solid #E6E6E6;
   padding-right: 0px;
@@ -76,17 +76,14 @@ img{
   clear: both;
   background-color: #F2F2F2;
   list-style-type: none;
-  height: 30px;
-  margin-top: 30px;
-  padding-top: 10px;
 }
 .bottom li{
-  display: inline;
+  display: inline-block;
   color: black;
   font-size: 18px;
   padding: 20px 50px;
 }
 li.rights{
-  margin-left: 310px;
-  padding-right: 0px;
+  clear: both;
+  float: right;
 }
