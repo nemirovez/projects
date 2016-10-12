@@ -41,29 +41,22 @@ position: relative;
   float: left;
   margin-left: 5px;
 }
-.cunt1{
-  background-image: url(../img/india.png);
+.cunt1, .cunt2, .cunt3, .cunt4, .cunt6{
   background-repeat: no-repeat;
   background-position: center;
   width: 53px;
+}
+.cunt1{
+  background-image: url(../img/india.png);
 }
 .cunt2{
   background-image: url(../img/nepal.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 53px;
 }
 .cunt3{
   background-image: url(../img/tibet.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 53px;
 }
 .cunt4{
   background-image: url(../img/butan.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 53px;
 }
 .cunt5{
   background-image: url(../img/shril.png);
@@ -76,9 +69,6 @@ position: relative;
 }
 .cunt6{
   background-image: url(../img/maldives.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 53px;
 }
 .holiday{
   height: 184px;
@@ -91,7 +81,6 @@ position: relative;
   margin: 8px 30px 0px 0px;
   font-family: Calibri;
 }
-
 div.beach{
   height: 282px;
 }
@@ -114,7 +103,7 @@ ul:after{
   clear: both;
   float: none;
 }
-ul.menu>li{
+.menu li{
   float: left;
   position: relative;
   color: white;
@@ -123,13 +112,18 @@ ul.menu>li{
 ul.menu>li>a{
   color: white;
   display: block;
-  margin-top: 4px;
   padding: 10px;
   text-decoration: none;
 }
-ul.menu>li>a:hover{
-  background-color: #2E2E2E;
+.single-points{
+  margin-top: 4px;
 }
+.lists{
+  margin-top: 2px;
+}
+/*ul.menu>li>a:hover{
+  background-color: #2E2E2E;
+}*/
 ul.submenu{
   display: none;
   position: absolute;
@@ -142,7 +136,6 @@ ul.submenu{
 }
 ul.submenu>li{
   display: block;
-
 }
 ul.submenu>li>a{
   display: block;
@@ -158,23 +151,24 @@ ul.submenu>li>a:hover{
 ul.menu>li:hover>ul.submenu{
   display: block;
 }
+.content{
+  height: 48.5%;
+}
 .info{
   text-align: center;
   background-color: #E6E6E6;
   float: left;
-  /*clear: both;*/
-  height: 48.5%;
+  clear: both;
+  height: 100%;
   width: 18%;
   color: #6E6E6E;
-  /*position: relative;*/
   border-right: 1px solid grey;
 }
 .news{
   text-align: center;
   background-color: #E6E6E6;
   float: right;
-  /*clear: both;*/
-  height: 48.5%;
+  height: 100%;
   width: 18%;
   color: #6E6E6E;
   position: relative;
