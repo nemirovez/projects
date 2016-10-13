@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
 body{
   background-image: url(../img/back.jpg);
   background-size: 100%;
@@ -64,7 +67,7 @@ body{
 .box{
   background-color: rgba(0, 0, 0, 0.5);
   width: 450px;
-  height: 500px;
+  height: 525px;
   margin:100px auto;
   color: white;
   text-align: center;
@@ -108,14 +111,30 @@ margin-top: 20px;
 }
 .checkbox{
   padding-right: 43px;
-  font-size: 14px;
-  color: grey;
 }
-.submit{
-  margin-top: 20px;
+.check{
+  padding-left: 6px;
+  font-size: 14px;
+  color: white;
+  opacity: 0.7;
+  display: inline-block;
+}
+.submit [type='submit']{
+  margin: 15px 0px;
+  border: none;
+  border-radius: 4%;
+  color: white;
+  height: 27px;
+  width: 135px;
+  background: #51b0dc;
+    background: -moz-linear-gradient(top, #51b0dc 0%, #3382c8 72%, #2f7bc5 88%, #2e7ac4 100%);
+    background: -webkit-linear-gradient(top, #51b0dc 0%, #3382c8 72%, #2f7bc5 88%, #2e7ac4 100%);
+    background: linear-gradient(to bottom, #51b0dc 0%, #3382c8 72%, #2f7bc5 88%, #2e7ac4 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e7ac4', GradientType=0);
 }
 .terms{
   font-size: 9px;
-  color: grey;
+  color: white;
+  opacity: 0.7;
 
 }
