@@ -109,6 +109,7 @@ width: 260px;
   /*width: 910px;*/
   padding-left: 100px;
   box-sizing: border-box;
+  margin-bottom: 8px;
 }
 .main{
   width: 100%;
@@ -141,6 +142,78 @@ width: 260px;
   background-repeat: no-repeat;
   font-size: 13px;
 }
+.search{
+  height: 153px;
+  margin-bottom: 6px;
+}
+.search-auto{
+  height: 150px;
+  width: 45%;
+  border: 1px solid grey;
+  border-radius: 10%;
+  float: left;
+}
+.search-tire{
+  height: 150px;
+  width: 22%;
+  border: 1px solid grey;
+  border-radius: 10%;
+  float: left;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+.search-disc{
+  height: 150px;
+  width: 29%;
+  border: 1px solid grey;
+  border-radius: 10%;
+  float: left;
+}
+.tire-size{
+  padding-left: 10px;
+}
+.tire-size form{
+  padding-left: 4px;
+  display: inline-block;
+}
+.tire-size select{
+  width: 55px;
+  float: left;
+  display: inline-block;
+}
+.tire-size p{
+  float: left;
+}
+.tire-r{
+  padding-left: 48px;
+}
+.tire-r form{
+  display: inline-block;
+  padding-left: 13px;
+}
+.tire-r p{
+  float: left;
+  clear: both;
+}
+.tire-r select{
+  width: 55px;
+  float: left;
+  display: inline-block;
+}
+.t-season {
+  display: inline-block;
+  width: 64px;
+  padding-left: 15px;
+}
+.tire-season{
+  clear: both;
+  display: block;
+  padding-left: 10px;
+}
+.tire-season p{
+  float: left;
+  clear: both;
+}
 .catalog{
   width: 25%;
   float: left;
@@ -165,7 +238,7 @@ width: 260px;
   height: 30px;
 }
 .tirs{
-  margin: 10px 0px 0px 30px;
+  margin: 10px 0px 0px 5px;
   padding-left: 10px;
   font-family: sans-serif;
   color: black;
@@ -180,10 +253,17 @@ width: 260px;
 .tirs:hover{
   background-image: url(../img/marker-hover.png);
   color: black;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: underline;
+  font-style: italic;
 }
 .content{
   width: 50%;
+  height: 500px;
+  display: block;
   float: left;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 1%;
 }
